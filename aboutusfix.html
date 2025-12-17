@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.html">
+  <link rel="stylesheet" href="./aboutus.css">
+  <title>PenaAktual</title>
+</head>
+<body>
+  <div class="about-us">
+    <div
+      class="pena-aktual-hadir-sebagai-media-yang-mengutamakan-informasi-cepat-akurat-dan-mudah-dipahami-di-tengah-derasnya-arus-berita-digital-nama-ini-dipilih-karena-mencerminkan-semangat-jurnalistik-yang-mengedepankan-ketajaman-pena-serta-komitmen-terhadap-informasi-yang-benar-benar-aktual-sebagai-media-yang-berorientasi-edukatif-dan-informatif-pena-aktual-berusaha-menyediakan-konten-yang-relevan-bagi-berbagai-kalangan-pembaca-pena-aktual-menyajikan-beberapa-rubrik-yang-disusun-secara-ringkas-dan-tepat-sasaran-rubrik-kuliner-memberikan-informasi-seputar-makanan-dan-tren-kuliner-untuk-memenuhi-minat-pembaca-serta-mendukung-perkembangan-umkm-rubrik-profil-menampilkan-kisah-inspiratif-dari-berbagai-tokoh-yang-dapat-memotivasi-pembaca-rubrik-sport-menyajikan-perkembangan-dunia-olahraga-secara-padat-dan-aktual-rubrik-soft-news-menghadirkan-berita-ringan-dan-human-interest-sebagai-penyeimbang-dalam-konsumsi-informasi-sementara-itu-rubrik-hard-news-menjadi-pilar-utama-penyampaian-peristiwa-penting-dan-mendesak-yang-membutuhkan-laporan-cepat-dan-faktual-dengan-susunan-rubrikasi-tersebut-pena-aktual-berkomitmen-menjadi-media-yang-informatif-kredibel-dan-dekat-dengan-kebutuhan-masyarakat"
+    >
+      Pena Aktual hadir sebagai media yang mengutamakan informasi cepat, akurat,
+      dan mudah dipahami di tengah derasnya arus berita digital. Nama ini dipilih
+      karena mencerminkan semangat jurnalistik yang mengedepankan ketajaman pena
+      serta komitmen terhadap informasi yang benar-benar aktual. Sebagai media
+      yang berorientasi edukatif dan informatif, Pena Aktual berusaha menyediakan
+      konten yang relevan bagi berbagai kalangan pembaca.
+      <br />
+      <br />
+      Pena Aktual menyajikan beberapa rubrik yang disusun secara ringkas dan tepat
+      sasaran. Rubrik kuliner memberikan informasi seputar makanan dan tren
+      kuliner untuk memenuhi minat pembaca serta mendukung perkembangan UMKM.
+      Rubrik profil menampilkan kisah inspiratif dari berbagai tokoh yang dapat
+      memotivasi pembaca. Rubrik sport menyajikan perkembangan dunia olahraga
+      secara padat dan aktual. Rubrik soft news menghadirkan berita ringan dan
+      human interest sebagai penyeimbang dalam konsumsi informasi. Sementara itu,
+      rubrik hard news menjadi pilar utama penyampaian peristiwa penting dan
+      mendesak yang membutuhkan laporan cepat dan faktual. Dengan susunan
+      rubrikasi tersebut, Pena Aktual berkomitmen menjadi media yang informatif,
+      kredibel, dan dekat dengan kebutuhan masyarakat.
+
+      <script>
+  const searchInput = document.getElementById('searchInput');
+  const newsCards = document.querySelectorAll('.news-card');
+
+  searchInput.addEventListener('keyup', function () {
+    const keyword = this.value.toLowerCase();
+
+    newsCards.forEach(card => {
+      const title = card.dataset.title.toLowerCase();
+      card.style.display = title.includes(keyword) ? 'block' : 'none';
+    });
+  });
+</script>
+
+    </div>
+    <div class="tentang-kami">TENTANG KAMI</div>
+    <div class="about-us2"></div>
+    <div class="pt-pena-aktual-network-pena-aktual">
+      © PT PENA AKTUAL NETWORK - PenaAktual
+    </div>
+    <div class="home">Home</div>
+    <div class="about-us3">About Us</div>
+    <div class="news">News</div>
+    <div class="features">Features</div>
+    <div class="articles">Articles</div>
+    <div class="channel">Channel</div>
+    <div class="company-profile">COMPANY PROFILE</div>
+    <div class="header"></div>
+    <div class="search">
+      <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search..."/>
+  </div>
+    </div>
+    <!-- <img class="group-2" src="group-20.svg" /> -->
+    <img class="logo" src="logo0.png" />
+    <div class="seacrh-bar"></div>
+      <nav class="nav-menu">
+  <a href="home.html" class="nav-item">HOME</a>
+  <a href="aboutusfix.html" class="nav-item">ABOUT US</a>
+  <a href="news.html" class="nav-item">NEWS</a>
+  <a href="feature.html" class="nav-item">FEATURE</a>
+  <a href="articles.html" class="nav-item">ARTICLES</a>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./aboutus.html">
+  <link rel="stylesheet" href="./fix1.css">
+  <title>PenaAktual</title>
+</head>
+<body>
+  <div class="beranda">
+    <div class="about-us"></div>
+    <div class="pt-pena-aktual-network-pena-aktual">
+      © PT PENA AKTUAL NETWORK - PenaAktual
+    </div>
+    <div class="home">Home</div>
+    <div class="about-us2">About Us</div>
+    <div class="news">News</div>
+    <div class="features">Features</div>
+    <div class="articles">Articles</div>
+    <div class="channel">Channel</div>
+    <div class="company-profile">COMPANY PROFILE</div>
+    <div class="trending"></div>
+    <div 
+      class="dari-iseng-bikin-konten-nabila-rhohimah-kini-jadi-inspirasi-banyak-orang"
+    >
+      Dari Iseng Bikin Konten Nabila Rhohimah Kini Jadi Inspirasi Banyak Orang
+    </div>
+    <div
+      class="dipergoki-warga-saat-mapping-subuh-dua-orang-tak-dikenal-diamankan-di-rawakalong"
+    >
+      Dipergoki Warga Saat Mapping Subuh, Dua Orang Tak Dikenal Diamankan di
+      Rawakalong
+    </div>
+    <div class="numbering">
+      #1
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      #2
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      #3
+    </div>
+    <div
+      class="komunitas-sepeda-yang-mengayuh-silaturahmi-dan-kesehatan-di-depok"
+    >
+      Komunitas Sepeda yang Mengayuh Silaturahmi dan Kesehatan di Depok
+    </div>
+    <div class="trending2">TRENDING</div>
+    <img class="foto-berita-pengendara" src="foto-berita-pengendara0.png" />
+    <div class="gradient"></div>
+    <div
+      class="pengendara-lebih-tenang-jalan-ambles-di-cisalak-akhirnya-diperbaiki"
+    >
+      Pengendara Lebih Tenang, Jalan Ambles Di Cisalak Akhirnya Diperbaiki
+    </div>
+    <div class="rectangle-caption-dipergok"></div>
+    <div class="rectangle-caption-nabila"></div>
+    <div class="rectangle-caption-sepeda"></div>
+    <div
+      class="depok-dipergoki-warga-saat-mapping-subuh-dua-orang-tak-dikenal-diamankan-di-rawakalong-selengkapnya"
+    >
+      <span>
+        <span
+          class="depok-dipergoki-warga-saat-mapping-subuh-dua-orang-tak-dikenal-diamankan-di-rawakalong-selengkapnya-span"
+        >
+          Depok
+          <br />
+          <br />
+        </span>
+        <span
+          class="depok-dipergoki-warga-saat-mapping-subuh-dua-orang-tak-dikenal-diamankan-di-rawakalong-selengkapnya-span2"
+        >
+          Dipergoki Warga Saat Mapping Subuh, Dua Orang Tak Dikenal Diamankan di
+          Rawakalong
+          <br />
+        </span>
+        <span
+          class="depok-dipergoki-warga-saat-mapping-subuh-dua-orang-tak-dikenal-diamankan-di-rawakalong-selengkapnya-span3"
+        >
+          <br />
+          Selengkapnya
+        </span>
+      </span>
+    </div>
+    <div
+      class="depok-dari-iseng-bikin-konten-nabila-rhohimah-kini-jadi-inspirasi-banyak-orang-selengkapnya"
+    >
+      <span>
+        <span
+          class="depok-dari-iseng-bikin-konten-nabila-rhohimah-kini-jadi-inspirasi-banyak-orang-selengkapnya-span"
+        >
+          Depok
+          <br />
+          <br />
+        </span>
+        <span
+          class="depok-dari-iseng-bikin-konten-nabila-rhohimah-kini-jadi-inspirasi-banyak-orang-selengkapnya-span2"
+        >
+          Dari Iseng Bikin Konten Nabila Rhohimah Kini Jadi Inspirasi Banyak Orang
+          <br />
+        </span>
+        <span
+          class="depok-dari-iseng-bikin-konten-nabila-rhohimah-kini-jadi-inspirasi-banyak-orang-selengkapnya-span3"
+        >
+          <br />
+          Selengkapnya
+        </span>
+      </span>
+    </div>
+    <div
+      class="depok-komunitas-sepeda-yang-mengayuh-silaturahmi-dan-kesehatan-di-depok-selengkapnya"
+    >
+      <span>
+        <span
+          class="depok-komunitas-sepeda-yang-mengayuh-silaturahmi-dan-kesehatan-di-depok-selengkapnya-span"
+        >
+          Depok
+          <br />
+          <br />
+        </span>
+        <span
+          class="depok-komunitas-sepeda-yang-mengayuh-silaturahmi-dan-kesehatan-di-depok-selengkapnya-span2"
+        >
+          Komunitas Sepeda yang Mengayuh Silaturahmi dan Kesehatan di Depok
+          <br />
+        </span>
+        <span
+          class="depok-komunitas-sepeda-yang-mengayuh-silaturahmi-dan-kesehatan-di-depok-selengkapnya-span3"
+        >
+          <br />
+          Selengkapnya
+        </span>
+      </span>
+
+      <script>
+  const searchInput = document.getElementById('searchInput');
+  const newsCards = document.querySelectorAll('.news-card');
+
+  searchInput.addEventListener('keyup', function () {
+    const keyword = this.value.toLowerCase();
+
+    newsCards.forEach(card => {
+      const title = card.dataset.title.toLowerCase();
+      card.style.display = title.includes(keyword) ? 'block' : 'none';
+    });
+  });
+</script>
+
+    </div>
+    <img class="foto-dipergok" src="foto-dipergok0.png" />
+    <img class="foto-bila" src="foto-bila0.png" />
+    <img class="foto-sepeda" src="foto-sepeda0.png" />
+    <div class="berita-terkini">BERITA TERKINI</div>
+    <div class="header"></div>
+    <div class="search">
+      <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search..."/>
+  </div>
+    </div>
+    <!-- <img class="group-2" src="group-20.svg" /> -->
+    <img class="logo" src="logo0.png" />
+    <div class="seacrh-bar"></div>
+    <nav></nav>
+      <nav class="nav-menu">
+  <a href="home.html" class="nav-item">HOME</a>
+  <a href="aboutusfix.html" class="nav-item">ABOUT US</a>
+  <a href="news.html" class="nav-item">NEWS</a>
+  <a href="feature.html" class="nav-item">FEATURE</a>
+  <a href="articles.html" class="nav-item">ARTICLES</a>
+</nav>
+  
+</body>
+</html>
